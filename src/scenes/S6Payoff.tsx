@@ -115,7 +115,7 @@ const FinaleShot: React.FC<{t: number}> = ({t}) => {
             t={t}
             path={[
               {t: 279.0, p: [0.9, 0.1, 3.6], l: [0, -0.1, 0], fov: 32},
-              {t: 286.8, p: [0.2, -0.25, 2.3], l: [0, -0.3, 0], fov: 30, e: 'sine.inOut'},
+              {t: 286.8, p: [0.2, 0.0, 3.0], l: [0, -0.05, 0], fov: 30, e: 'sine.inOut'},
             ]}
           />
           <ambientLight intensity={0.12} color="#6a84b0" />

@@ -13,6 +13,6 @@ Config.setJpegQuality(92);
 Config.setChromiumOpenGlRenderer((process.env.REMOTION_GL as any) ?? 'angle');
 Config.setConcurrency(Number(process.env.REMOTION_CONCURRENCY ?? 2));
 Config.setCodec('h264');
-Config.setCrf(16);
+Config.setCrf(20);
 Config.setPixelFormat('yuv420p');
 Config.setTimeoutInMilliseconds(240000);
