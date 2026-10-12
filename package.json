@@ -1,0 +1,35 @@
+{
+  "name": "the-billion-dollar-no",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cinematic documentary: Ring Doorbell, from Shark Tank rejection to Amazon acquisition. Remotion + Three.js + GSAP.",
+  "scripts": {
+    "studio": "remotion studio",
+    "audio": "python3 -I tools/build_audio.py",
+    "render": "remotion render Documentary out/the-billion-dollar-no.mp4",
+    "still": "remotion still Documentary out/still.png"
+  },
+  "dependencies": {
+    "@expo-google-fonts/instrument-serif": "^0.4.1",
+    "@expo-google-fonts/inter-tight": "^0.4.2",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "@fontsource/inter-tight": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@react-three/fiber": "^9.6.0",
+    "@remotion/cli": "^4.0.534",
+    "@remotion/three": "^4.0.534",
+    "gsap": "^3.15.0",
+    "opentype.js": "^2.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "^4.0.534",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "^4.0.534",
+    "@remotion/renderer": "^4.0.534",
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "typescript": "^7.0.2"
+  }
+}

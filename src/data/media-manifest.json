@@ -1,0 +1,11 @@
+{
+  "note": "Archival slots. Drop a licensed clip into public/media/licensed/ and set available=true to composite it over the recreation for the given window. Nothing here is shipped with the repo; see LICENSING.md.",
+  "slots": {
+    "ST-01": {"title": "Shark Tank S5 — DoorBot pitch: entrance & demo", "rightsHolder": "Sony Pictures Television / ABC (Disney)", "file": "media/licensed/ST-01.mp4", "available": false, "start": 5.6, "end": 15.0, "trimFrom": 0},
+    "ST-02": {"title": "Shark Tank S5 — Sharks go out / O'Leary offer / no deal", "rightsHolder": "Sony Pictures Television / ABC (Disney)", "file": "media/licensed/ST-02.mp4", "available": false, "start": 89.0, "end": 126.4, "trimFrom": 0},
+    "IV-01": {"title": "Jamie Siminoff interview on the garage origin", "rightsHolder": "Varies by outlet (e.g. CNBC, Bloomberg, GeekWire)", "file": "media/licensed/IV-01.mp4", "available": false, "start": 38.5, "end": 51.0, "trimFrom": 0},
+    "AD-01": {"title": "Ring product advertisement / demo (2014–2017)", "rightsHolder": "Ring LLC (Amazon)", "file": "media/licensed/AD-01.mp4", "available": false, "start": 198.0, "end": 208.4, "trimFrom": 0},
+    "NW-01": {"title": "News coverage: Amazon to acquire Ring (Feb 27, 2018)", "rightsHolder": "Broadcaster (e.g. CNBC / Reuters TV)", "file": "media/licensed/NW-01.mp4", "available": false, "start": 252.4, "end": 256.4, "trimFrom": 0},
+    "ST-03": {"title": "Shark Tank S10 — Siminoff as guest Shark (Oct 2018)", "rightsHolder": "Sony Pictures Television / ABC (Disney)", "file": "media/licensed/ST-03.mp4", "available": false, "start": 270.4, "end": 277.0, "trimFrom": 0}
+  }
+}

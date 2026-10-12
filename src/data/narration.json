@@ -1,0 +1,518 @@
+{
+ "fps": 30,
+ "lines": [
+  {
+   "id": "h1",
+   "scene": "hook",
+   "at": 3.2,
+   "text": "November, twenty thirteen.",
+   "start": 3.2,
+   "end": 4.88,
+   "dur": 1.68
+  },
+  {
+   "id": "h2",
+   "scene": "hook",
+   "at": 5.6,
+   "text": "An inventor walks onto the set of Shark Tank, carrying a doorbell.",
+   "start": 5.6,
+   "end": 9.217,
+   "dur": 3.617
+  },
+  {
+   "id": "h3",
+   "scene": "hook",
+   "at": 10.2,
+   "text": "He asks for seven hundred thousand dollars, for ten percent of his company.",
+   "start": 10.2,
+   "end": 14.677,
+   "dur": 4.477
+  },
+  {
+   "id": "h4",
+   "scene": "hook",
+   "at": 15.4,
+   "text": "Four Sharks say no. The fifth makes an offer he won't accept.",
+   "start": 15.4,
+   "end": 19.113,
+   "dur": 3.713
+  },
+  {
+   "id": "h5",
+   "scene": "hook",
+   "at": 20.0,
+   "text": "He walks away with nothing.",
+   "start": 20.0,
+   "end": 21.521,
+   "dur": 1.521
+  },
+  {
+   "id": "h6",
+   "scene": "hook",
+   "at": 24.0,
+   "text": "Five years later, Amazon would buy that company, in a deal reported to be worth more than a billion dollars.",
+   "start": 24.0,
+   "end": 30.563,
+   "dur": 6.563
+  },
+  {
+   "id": "h7",
+   "scene": "hook",
+   "at": 31.4,
+   "text": "This is the story of the billion dollar no.",
+   "start": 31.4,
+   "end": 33.91,
+   "dur": 2.51
+  },
+  {
+   "id": "b1",
+   "scene": "beginning",
+   "at": 38.5,
+   "text": "Twenty eleven. Jamie Siminoff is a tinkerer, building gadgets in his garage in Southern California.",
+   "start": 38.5,
+   "end": 44.995,
+   "dur": 6.495
+  },
+  {
+   "id": "b2",
+   "scene": "beginning",
+   "at": 45.4,
+   "text": "And he has a problem. When someone rings the front door, he can't hear it from the garage.",
+   "start": 45.4,
+   "end": 50.49,
+   "dur": 5.09
+  },
+  {
+   "id": "b3",
+   "scene": "beginning",
+   "at": 51.5,
+   "text": "So he does what inventors do. He connects the doorbell to Wi-Fi, adds a camera, and sends the front door to his phone.",
+   "start": 51.5,
+   "end": 58.63,
+   "dur": 7.13
+  },
+  {
+   "id": "b4",
+   "scene": "beginning",
+   "at": 59.2,
+   "text": "He calls it DoorBot.",
+   "start": 59.2,
+   "end": 60.602,
+   "dur": 1.402
+  },
+  {
+   "id": "b5a",
+   "scene": "beginning",
+   "at": 62.0,
+   "text": "A camera.",
+   "start": 62.0,
+   "end": 62.753,
+   "dur": 0.753
+  },
+  {
+   "id": "b5b",
+   "scene": "beginning",
+   "at": 63.4,
+   "text": "A button.",
+   "start": 63.4,
+   "end": 64.128,
+   "dur": 0.728
+  },
+  {
+   "id": "b5c",
+   "scene": "beginning",
+   "at": 64.8,
+   "text": "A radio.",
+   "start": 64.8,
+   "end": 65.652,
+   "dur": 0.852
+  },
+  {
+   "id": "b5d",
+   "scene": "beginning",
+   "at": 66.2,
+   "text": "Answer the door, from anywhere.",
+   "start": 66.2,
+   "end": 67.881,
+   "dur": 1.681
+  },
+  {
+   "id": "b6",
+   "scene": "beginning",
+   "at": 69.0,
+   "text": "The early hardware is rough, and money is tight.",
+   "start": 69.0,
+   "end": 71.606,
+   "dur": 2.606
+  },
+  {
+   "id": "b7",
+   "scene": "beginning",
+   "at": 73.0,
+   "text": "So he takes the biggest swing he can find. National television.",
+   "start": 73.0,
+   "end": 76.883,
+   "dur": 3.883
+  },
+  {
+   "id": "r1",
+   "scene": "rejection",
+   "at": 82.5,
+   "text": "In the Tank, Siminoff values DoorBot at seven million dollars. It sells for about two hundred.",
+   "start": 82.5,
+   "end": 88.598,
+   "dur": 6.098
+  },
+  {
+   "id": "r2",
+   "scene": "rejection",
+   "at": 89.0,
+   "text": "One by one, the Sharks find their reasons.",
+   "start": 89.0,
+   "end": 91.529,
+   "dur": 2.529
+  },
+  {
+   "id": "r3",
+   "scene": "rejection",
+   "at": 92.2,
+   "text": "Lori Greiner doesn't see enough to set it apart at that price.",
+   "start": 92.2,
+   "end": 95.621,
+   "dur": 3.421
+  },
+  {
+   "id": "r4",
+   "scene": "rejection",
+   "at": 96.4,
+   "text": "Daymond John worries the big security companies could crush it.",
+   "start": 96.4,
+   "end": 99.821,
+   "dur": 3.421
+  },
+  {
+   "id": "r5",
+   "scene": "rejection",
+   "at": 100.6,
+   "text": "Robert Herjavec questions whether a connected device could be hacked.",
+   "start": 100.6,
+   "end": 104.583,
+   "dur": 3.983
+  },
+  {
+   "id": "r6",
+   "scene": "rejection",
+   "at": 105.0,
+   "text": "Mark Cuban can't see the path to a company worth tens of millions.",
+   "start": 105.0,
+   "end": 108.791,
+   "dur": 3.791
+  },
+  {
+   "id": "r7",
+   "scene": "rejection",
+   "at": 109.6,
+   "text": "Only Kevin O'Leary makes an offer. Seven hundred thousand, structured like a loan, repaid through royalties on every unit sold, plus a slice of equity.",
+   "start": 109.6,
+   "end": 119.625,
+   "dur": 10.025
+  },
+  {
+   "id": "r8",
+   "scene": "rejection",
+   "at": 120.4,
+   "text": "For a young hardware company, terms like that can be suffocating. Siminoff says no.",
+   "start": 120.4,
+   "end": 125.607,
+   "dur": 5.207
+  },
+  {
+   "id": "r9",
+   "scene": "rejection",
+   "at": 126.2,
+   "text": "No deal.",
+   "start": 126.2,
+   "end": 127.045,
+   "dur": 0.845
+  },
+  {
+   "id": "r10",
+   "scene": "rejection",
+   "at": 128.4,
+   "text": "On paper, it's a failure. But when the episode airs, millions of viewers have just met DoorBot. And the orders start coming in.",
+   "start": 128.4,
+   "end": 136.197,
+   "dur": 7.797
+  },
+  {
+   "id": "c1",
+   "scene": "comeback",
+   "at": 136.6,
+   "text": "The rejection doesn't end the company. It sharpens it.",
+   "start": 136.6,
+   "end": 139.717,
+   "dur": 3.117
+  },
+  {
+   "id": "c2",
+   "scene": "comeback",
+   "at": 141.0,
+   "text": "Siminoff rebuilds the product, piece by piece. Better video. Better design. A bigger mission.",
+   "start": 141.0,
+   "end": 147.125,
+   "dur": 6.125
+  },
+  {
+   "id": "c3",
+   "scene": "comeback",
+   "at": 148.6,
+   "text": "And in September twenty fourteen, DoorBot gets a new name.",
+   "start": 148.6,
+   "end": 152.011,
+   "dur": 3.411
+  },
+  {
+   "id": "c4",
+   "scene": "comeback",
+   "at": 153.6,
+   "text": "Ring.",
+   "start": 153.6,
+   "end": 154.206,
+   "dur": 0.606
+  },
+  {
+   "id": "c5",
+   "scene": "comeback",
+   "at": 156.0,
+   "text": "Not just a doorbell, but a promise: to make neighborhoods safer.",
+   "start": 156.0,
+   "end": 159.629,
+   "dur": 3.629
+  },
+  {
+   "id": "c6",
+   "scene": "comeback",
+   "at": 161.6,
+   "text": "Then, an email arrives. From Richard Branson.",
+   "start": 161.6,
+   "end": 164.498,
+   "dur": 2.898
+  },
+  {
+   "id": "c7",
+   "scene": "comeback",
+   "at": 166.4,
+   "text": "In twenty fifteen, Branson helps lead a twenty eight million dollar round.",
+   "start": 166.4,
+   "end": 170.559,
+   "dur": 4.159
+  },
+  {
+   "id": "c8",
+   "scene": "comeback",
+   "at": 172.4,
+   "text": "In twenty sixteen, Kleiner Perkins leads sixty one million more.",
+   "start": 172.4,
+   "end": 176.298,
+   "dur": 3.898
+  },
+  {
+   "id": "c9",
+   "scene": "comeback",
+   "at": 178.2,
+   "text": "In twenty seventeen, one hundred and nine million, with backers including DFJ Growth, Goldman Sachs, and Qualcomm Ventures.",
+   "start": 178.2,
+   "end": 186.276,
+   "dur": 8.076
+  },
+  {
+   "id": "c10",
+   "scene": "comeback",
+   "at": 187.4,
+   "text": "In all, more than two hundred million dollars of venture funding, for the company the Sharks passed on.",
+   "start": 187.4,
+   "end": 193.008,
+   "dur": 5.608
+  },
+  {
+   "id": "e1",
+   "scene": "explosion",
+   "at": 198.0,
+   "text": "Ring isn't a gadget anymore. It's a system.",
+   "start": 198.0,
+   "end": 200.793,
+   "dur": 2.793
+  },
+  {
+   "id": "e2a",
+   "scene": "explosion",
+   "at": 202.4,
+   "text": "Video doorbells.",
+   "start": 202.4,
+   "end": 203.526,
+   "dur": 1.126
+  },
+  {
+   "id": "e2b",
+   "scene": "explosion",
+   "at": 204.0,
+   "text": "Floodlight cameras.",
+   "start": 204.0,
+   "end": 205.177,
+   "dur": 1.177
+  },
+  {
+   "id": "e2c",
+   "scene": "explosion",
+   "at": 205.6,
+   "text": "Stick up cams.",
+   "start": 205.6,
+   "end": 206.65,
+   "dur": 1.05
+  },
+  {
+   "id": "e2d",
+   "scene": "explosion",
+   "at": 207.2,
+   "text": "A home alarm.",
+   "start": 207.2,
+   "end": 208.219,
+   "dur": 1.019
+  },
+  {
+   "id": "e3",
+   "scene": "explosion",
+   "at": 209.6,
+   "text": "Front door by front door, porch lights turn blue, all across the map.",
+   "start": 209.6,
+   "end": 213.803,
+   "dur": 4.203
+  },
+  {
+   "id": "e4",
+   "scene": "explosion",
+   "at": 215.8,
+   "text": "And the value of the company climbs.",
+   "start": 215.8,
+   "end": 217.586,
+   "dur": 1.786
+  },
+  {
+   "id": "e5a",
+   "scene": "explosion",
+   "at": 218.6,
+   "text": "Seven million, asked for in the Tank.",
+   "start": 218.6,
+   "end": 220.655,
+   "dur": 2.055
+  },
+  {
+   "id": "e5b",
+   "scene": "explosion",
+   "at": 222.0,
+   "text": "About sixty million, in twenty fifteen.",
+   "start": 222.0,
+   "end": 224.357,
+   "dur": 2.357
+  },
+  {
+   "id": "e5c",
+   "scene": "explosion",
+   "at": 225.6,
+   "text": "Two hundred and four million, in twenty sixteen.",
+   "start": 225.6,
+   "end": 228.393,
+   "dur": 2.793
+  },
+  {
+   "id": "e5d",
+   "scene": "explosion",
+   "at": 229.4,
+   "text": "Four hundred and forty five million, in twenty seventeen.",
+   "start": 229.4,
+   "end": 232.92,
+   "dur": 3.52
+  },
+  {
+   "id": "e6",
+   "scene": "explosion",
+   "at": 233.6,
+   "text": "The doorbell that couldn't find an investor on television, now has some of the biggest names in finance behind it.",
+   "start": 233.6,
+   "end": 240.171,
+   "dur": 6.571
+  },
+  {
+   "id": "e7",
+   "scene": "explosion",
+   "at": 241.6,
+   "text": "And the biggest name in e-commerce is paying attention.",
+   "start": 241.6,
+   "end": 244.518,
+   "dur": 2.918
+  },
+  {
+   "id": "p1",
+   "scene": "payoff",
+   "at": 249.0,
+   "text": "February twenty seventh, twenty eighteen.",
+   "start": 249.0,
+   "end": 251.331,
+   "dur": 2.331
+  },
+  {
+   "id": "p2",
+   "scene": "payoff",
+   "at": 252.6,
+   "text": "Amazon announces it will acquire Ring.",
+   "start": 252.6,
+   "end": 254.781,
+   "dur": 2.181
+  },
+  {
+   "id": "p3",
+   "scene": "payoff",
+   "at": 256.6,
+   "text": "The terms aren't disclosed. But reports put the price at more than one billion dollars.",
+   "start": 256.6,
+   "end": 261.85,
+   "dur": 5.25
+  },
+  {
+   "id": "p4",
+   "scene": "payoff",
+   "at": 264.6,
+   "text": "From a seven hundred thousand dollar ask, to a billion dollar exit.",
+   "start": 264.6,
+   "end": 268.705,
+   "dur": 4.105
+  },
+  {
+   "id": "p5",
+   "scene": "payoff",
+   "at": 270.4,
+   "text": "That October, Jamie Siminoff returns to Shark Tank. This time, he's sitting in the Shark's chair.",
+   "start": 270.4,
+   "end": 276.2,
+   "dur": 5.8
+  },
+  {
+   "id": "p6",
+   "scene": "payoff",
+   "at": 279.0,
+   "text": "Sometimes, the most important deal you'll ever make...",
+   "start": 279.0,
+   "end": 281.873,
+   "dur": 2.873
+  },
+  {
+   "id": "p7",
+   "scene": "payoff",
+   "at": 283.2,
+   "text": "is the one you walk away from.",
+   "start": 283.2,
+   "end": 284.613,
+   "dur": 1.413
+  }
+ ]
+}
