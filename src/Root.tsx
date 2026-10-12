@@ -6,6 +6,7 @@ import {Documentary} from './Documentary';
 import {S1Hook} from './scenes/S1Hook';
 import {S2Beginning} from './scenes/S2Beginning';
 import {S3Rejection} from './scenes/S3Rejection';
+import {S4Comeback} from './scenes/S4Comeback';
 import {FPS, SCENES, TOTAL_FRAMES} from './timeline';
 loadFonts();
 
@@ -17,6 +18,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="S1-Hook" component={S1Hook} durationInFrames={dur('hook')} fps={FPS} width={1920} height={1080} />
     <Composition id="S2-Beginning" component={S2Beginning} durationInFrames={dur('beginning')} fps={FPS} width={1920} height={1080} />
     <Composition id="S3-Rejection" component={S3Rejection} durationInFrames={dur('rejection')} fps={FPS} width={1920} height={1080} />
+    <Composition id="S4-Comeback" component={S4Comeback} durationInFrames={dur('comeback')} fps={FPS} width={1920} height={1080} />
     <Composition id="Lab" component={Lab as any} durationInFrames={60} fps={30} width={1920} height={1080} defaultProps={{variant: 'ring', explode: 0}} />
   </>
 );

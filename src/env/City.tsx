@@ -68,8 +68,8 @@ const col = new THREE.Color();
  * Night suburb. `lit(h)` returns 0..1 porch-light activation for each house.
  * Porch lights are emissive (bloom), windows warm.
  */
-export const City: React.FC<{R?: number; seed?: number; lit: (h: House) => number; porchColor?: string; windowGlow?: number; streetGlow?: number; groundY?: number}> = ({R = 70, seed = 1, lit, porchColor = '#38b6ff', windowGlow = 0.6, streetGlow = 1, groundY = 0}) => {
-  const houses = useMemo(() => makeHouses(R, seed), [R, seed]);
+export const City: React.FC<{R?: number; seed?: number; lit: (h: House) => number; porchColor?: string; windowGlow?: number; streetGlow?: number; groundY?: number; hole?: number}> = ({R = 70, hole = 0, seed = 1, lit, porchColor = '#38b6ff', windowGlow = 0.6, streetGlow = 1, groundY = 0}) => {
+  const houses = useMemo(() => makeHouses(R, seed).filter((h) => h.dist >= hole), [R, seed, hole]);
   const n = houses.length;
   const {body, roof, porch, win, street, ground} = useMemo(() => {
     const bodyGeo = new THREE.BoxGeometry(1, 1, 1);
