@@ -159,14 +159,14 @@ export const Doorbell: React.FC<{
     speaker: {base: [0, btnY + 0.55, 0.12], labelAt: [-0.3, 0, 0], node: (
       <mesh rotation={[Math.PI / 2, 0, 0]} material={m.grille} castShadow><cylinderGeometry args={[0.16, 0.16, 0.05, 40]} /></mesh>
     )},
-    camera: {base: [0, camY, 0.16], labelAt: [0.25, 0.05, 0], node: (
+    camera: {base: [0, camY, isBot ? 0.19 : 0.16], labelAt: [0.25, 0.05, 0], node: (
       <group>
         <mesh rotation={[Math.PI / 2, 0, 0]} material={m.blackMatte} castShadow><cylinderGeometry args={[0.2, 0.22, 0.16, 48]} /></mesh>
         <mesh rotation={[Math.PI / 2, 0, 0]} position={[0, 0, 0.05]} material={m.brushed}><torusGeometry args={[0.165, 0.025, 16, 48]} /></mesh>
         <mesh position={[0, 0, 0.06]} material={m.lens}><sphereGeometry args={[0.15, 48, 24, 0, Math.PI * 2, 0, Math.PI / 2.6]} /></mesh>
       </group>
     )},
-    ir: {base: [0, camY, 0.17], labelAt: [0.42, 0.1, 0], node: (
+    ir: {base: [0, camY, isBot ? 0.225 : 0.17], labelAt: [0.42, 0.1, 0], node: (
       <group>
         {Array.from({length: 6}, (_, i) => {
           const a = (i / 6) * Math.PI * 2 + 0.3;
@@ -174,7 +174,7 @@ export const Doorbell: React.FC<{
         })}
       </group>
     )},
-    button: {base: [0, btnY, 0.18], labelAt: [btnR + 0.1, 0, 0], node: (
+    button: {base: [0, btnY, isBot ? 0.235 : 0.18], labelAt: [btnR + 0.1, 0, 0], node: (
       <group>
         <mesh rotation={[Math.PI / 2, 0, 0]} material={isBot ? m.brushed : m.nickel} castShadow><cylinderGeometry args={[btnR, btnR, 0.07, 64]} /></mesh>
         <mesh position={[0, 0, 0.0]} material={ledM}><torusGeometry args={[btnR + 0.025, 0.017, 16, 96]} /></mesh>

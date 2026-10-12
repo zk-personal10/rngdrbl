@@ -39,7 +39,7 @@ const seatStates = (t: number): SeatState[] => {
 
 const TankShot: React.FC<{t: number}> = ({t}) => {
   const spot = t < 5.6 ? 0 : t < 20.3 ? 1 : 0;
-  const ledI = keys(t, [[0, 0], [1.6, 3.2, 'power2.out'], [20.3, 3.2], [22.5, 0.6, 'power2.in']]);
+  const ledI = keys(t, [[0, 0], [1.6, 1.7, 'power2.out'], [5.4, 1.7], [7.5, 2.6], [20.3, 2.6], [22.5, 0.6, 'power2.in']]);
   const macro = t < 9.5;
   const focus = keys(t, [[0, 0.42], [4.8, 0.62], [9.5, 4.5]]);
   return (
@@ -47,8 +47,8 @@ const TankShot: React.FC<{t: number}> = ({t}) => {
       env={1.0}
       grade={{
         time: t,
-        bloom: keys(t, [[0, 1.3], [6, 0.6]]),
-        bloomThreshold: keys(t, [[0, 0.6], [6, 0.85]]),
+        bloom: keys(t, [[0, 0.85], [5.4, 0.85], [6.4, 0.6]]),
+        bloomThreshold: keys(t, [[0, 0.7], [5.4, 0.7], [6.4, 0.85]]),
         exposure: keys(t, [[0, 1], [10.4, 1], [11, 0.75], [14.8, 0.75], [15.4, 1]]),
         fade: Math.max(1 - prog(t, 0, 1.6, 'power2.out'), prog(t, 22.4, 23.5, 'power2.in')),
         flash: t >= 5.6 && t < 5.75 ? 0.25 : 0,
@@ -60,8 +60,8 @@ const TankShot: React.FC<{t: number}> = ({t}) => {
         t={t}
         drift={1}
         path={[
-          {t: 0, p: [0, -0.2, 0.42], l: [0, -0.2, 0], fov: 28},
-          {t: 5.4, p: [0.02, -0.19, 0.6], l: [0, -0.2, 0], fov: 28, e: 'none'},
+          {t: 0, p: [0, -0.185, 2.0], l: [0, -0.185, 0], fov: 26},
+          {t: 5.4, p: [0.08, -0.12, 2.6], l: [0, -0.08, 0], fov: 26, e: 'none'},
           {t: 10.4, p: [1.3, 0.3, 4.4], l: [0, -0.05, 0], fov: 32, e: 'power3.inOut'},
           {t: 15.2, p: [-1.9, -0.95, 3.7], l: [0, 0.35, -1.2], fov: 34, e: 'sine.inOut'},
           {t: 19.8, p: [0, 1.7, 8.6], l: [0, 0.5, -2.2], fov: 36, e: 'power2.inOut'},

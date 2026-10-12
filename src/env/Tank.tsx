@@ -42,7 +42,6 @@ export const SharkSeats: React.FC<{states: SeatState[]; floorY?: number; n?: num
             {/* light strip */}
             {/* backlight halo: emissive slab just behind the back, glowing around its silhouette */}
             <Slab w={1.68} h={2.98} d={0.02} r={0.28} position={[0, 2.35, -0.74]} rotation={[-0.08, 0, 0]} material={stripMat(i, s.color, s.glow * 1.8)} />
-            {s.glow > 0.05 ? <pointLight position={[0, 4.2, 0.6]} intensity={s.glow * 3} distance={3.5} color={s.color} /> : null}
             {(s.name ?? 0) > 0.01 ? (
               <Label3D text={names[i] ?? ''} font="mono" weight={500} size={60} tracking={0.25} color="#e8eef4" height={0.13} position={[0, 0.12, 1.0]} rotation={[-Math.PI / 2, 0, 0]} opacity={s.name} />
             ) : null}
